@@ -15,3 +15,7 @@ function addTask() {
     }
     inputBox.value = '';
 }
+
+function saveData() {
+    localStorage.setItem('data', listContainer.innerHTML);
+}
